@@ -42,12 +42,15 @@
 \definecolor{VividPurple}{HTML}{3E0097}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
+\definecolor{NavyBlue}{HTML}{1E3A5F}
+\definecolor{DarkGrey}{HTML}{333333}
+
 % \colorlet{name}{black}
-% \colorlet{tagline}{PastelRed}
-\colorlet{heading}{VividPurple}
-\colorlet{headingrule}{VividPurple}
+ \colorlet{tagline}{NavyBlue}
+\colorlet{heading}{DarkGrey}
+\colorlet{headingrule}{DarkGrey}
 % \colorlet{subheading}{PastelRed}
-\colorlet{accent}{VividPurple}
+\colorlet{accent}{NavyBlue}
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 
@@ -94,8 +97,8 @@
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 %% You can add multiple photos on the left or right
  %\photoL{2cm}{Yacht_High,Suitcase_High}
- \photoL{2cm}{K8s}
- \photoR{2cm}{K8s}
+ %\photoL{2cm}{azurecert}
+ \photoR{2cm}{azurecert,azurecert1,terraformcert}
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
@@ -133,12 +136,16 @@
 \AtBeginEnvironment{itemize}{\small}
 
 %% Set the left/right column width ratio to 6:4.
-\columnratio{0.6}
+\columnratio{0.7}
 
 % Start a 2-column paracol. Both the left and right columns will automatically
 % break across pages if things get too long.
 \begin{paracol}{2}
 
+  \cvsection{Career Summary}
+  \begin{itemize}
+    \item Experienced Systems Engineer with 11+ Years of solid background in Linux, Kubernetes and VMware with focus on designing, implementing, and optimizing software delivery using CI/CD pipelines. Proficient in deploying and managing cloud/on-premise infrastructure, with expertise in monitoring and troubleshooting complex environments to enhance system stability and performance.
+  \end{itemize}
 \cvsection{Experience}
 
 \cvevent{DevOps/WinOps Engineer}{Deriv}{Oct 2023 -- Ongoing}{Dubai, UAE}
@@ -178,84 +185,85 @@
 % \item Joined the company as employe \#20 and female employee \#1
 % \item Developed targeted advertisement in order to use user's search queries and show them related ads
 % \end{itemize}
-
-\cvsection{A Day of My Life}
+%i commented
+%\cvsection{A Day of My Life}
 
 % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
 % \wheelchart{outer radius}{inner radius}{
 % comma-separated list of value/text width/color/detail}
 % Some ad-hoc tweaking to adjust the labels so that they don't overlap
-\hspace*{-1em}  %% quick hack to move the wheelchart a bit left
-\wheelchart{1.5cm}{0.5cm}{%
-  10/13em/accent!30/Sleeping \& dreaming about work,
-  25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
-  5/11em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
-  20/11em/accent!40/Spending time with family,
-  5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
-  30/9em/accent/Showing Yahoo!\ \mbox{employees} that their work has meaning,
-  5/8em/accent!20/Baking cupcakes
-}
+%\hspace*{-1em}  %% quick hack to move the wheelchart a bit left
+%i commented
+%\wheelchart{1.5cm}{0.5cm}{%
+ % 10/13em/accent!30/Sleeping \& dreaming about work,
+  % 25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+  % 5/11em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+  % 20/11em/accent!40/Spending time with family,
+  % 5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+  % 30/9em/accent/Showing Yahoo!\ \mbox{employees} that their work has meaning,
+  % 5/8em/accent!20/Baking cupcakes
+% }
 
 % use ONLY \newpage if you want to force a page break for
 % ONLY the currentc column
-\newpage
+% \newpage
 
-\cvsection{Publications}
+% \cvsection{Publications}
 
-%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
-%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
-\mynames{Lim/Lian\bibnamedelima Tze,
-  Wong/Lian\bibnamedelima Tze,
-  Lim/Tracy,
-  Lim/L.\bibnamedelimi T.}
-%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
+% %% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
+% %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
+% %% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
+% \mynames{Lim/Lian\bibnamedelima Tze,
+%   Wong/Lian\bibnamedelima Tze,
+%   Lim/Tracy,
+%   Lim/L.\bibnamedelimi T.}
+% %% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
-\nocite{*}
+% \nocite{*}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
 
-\divider
+% \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
 
-\divider
+% \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+% \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
 
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
 \switchcolumn
 
-\cvsection{Life Philosophy}
-\begin{quote}
-``If you don't have any shadows, you're not standing in the light.''
-\end{quote}
+% \cvsection{Life Philosophy}
+% \begin{quote}
+% ``If you don't have any shadows, you're not standing in the light.''
+% \end{quote}
 
-\cvsection{Most Proud of}
+% \cvsection{Most Proud of}
 
-\cvachievement{\faCertificate}{Courage I had}{to take a sinking ship and try to make it float}
+% \cvachievement{\faCertificate}{Courage I had}{to take a sinking ship and try to make it float}
 
-\divider
+% \divider
 
-\cvachievement{\faHeartbeat}{Persistence \& Loyalty}{I showed despite the hard moments and my willingness to stay with Yahoo after the acquisition}
+% \cvachievement{\faHeartbeat}{Persistence \& Loyalty}{I showed despite the hard moments and my willingness to stay with Yahoo after the acquisition}
 
-\divider
+% \divider
 
-\cvachievement{\faChartLine}{Google's Growth}{from a hundred thousand searches per day to over a billion}
+% \cvachievement{\faChartLine}{Google's Growth}{from a hundred thousand searches per day to over a billion}
 
-\divider
+% \divider
 
-\cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
+% \cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
 
-\cvsection{Tech Skills}
+\cvsection{Skills}
 
-\cvtag{Linux}
-\cvtag{Linux}
-\cvtag{Linux}
-\cvtag{Linux}
+\cvtag{Linux}\\
+\cvtag{Linux}\\
+\cvtag{Linux}\\
+\cvtag{Linux}\\
 \cvtag{Persuasive}\\
-\cvtag{Motivator \& Leader}
+\cvtag{Motivator \& Leader}\\
 
 \divider\smallskip
 
@@ -263,15 +271,15 @@
 \cvtag{Mobile Devices \& Applications}
 \cvtag{Product Management \& Marketing}
 
-\cvsection{Languages}
+% \cvsection{Languages}
 
-\cvskill{English}{5}
-% \divider
+% \cvskill{English}{5}
+% % \divider
 
-\cvskill{Spanish}{4}
-% \divider
+% \cvskill{Spanish}{4}
+% % \divider
 
-\cvskill{German}{3.5} %% supports X.5 values.
+% \cvskill{German}{3.5} %% supports X.5 values.
 
 
 \cvsection{Education}
@@ -282,18 +290,18 @@
 
 \cvevent{B.S.\ in Symbolic Systems}{Stanford University}{Sept 1993 -- June 1997}{}
 
-\newpage
+% \newpage
 
-\cvsection{Referees}
+% \cvsection{Referees}
 
-% \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-{Address Line 1\\Address line 2}
+% % \cvref{name}{email}{mailing address}
+% \cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
+% {Address Line 1\\Address line 2}
 
-\divider
+% \divider
 
-\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-{Address Line 1\\Address line 2}
+% \cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
+% {Address Line 1\\Address line 2}
 
 \end{paracol}
 

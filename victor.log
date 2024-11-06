@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  6 NOV 2024 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  6 NOV 2024 21:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/workspaces/Resume/victor.tex
-(/workspaces/Resume/victor.tex
+**/workspaces/latex_resume/victor.tex
+(/workspaces/latex_resume/victor.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (./altacv.cls
@@ -1310,33 +1310,33 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 )))
 \@quotelevel=\count458
 \@quotereset=\count459
-LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 91.
+LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 94.
  (/usr/share/texlive/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 91.
+(Font)              scaled to size 10.0pt on input line 94.
  (./victor.aux)
 \openout1 = `victor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count460
@@ -1356,7 +1356,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 91.
+Package hyperref Info: Link coloring OFF on input line 94.
  (./victor.out) (./victor.out)
 \@outlinefile=\write6
 \openout6 = `victor.out'.
@@ -1410,115 +1410,89 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'victor.bbl' found.
- (./victor.bbl
+ (./victor.bbl)
+Package biblatex Info: Reference section=0 on input line 94.
+Package biblatex Info: Reference segment=0 on input line 94.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 55.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 55.
+(Font)              scaled to size 24.88pt on input line 133.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 133.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 133.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 133.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 133.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 133.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 133.
+ (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 133.
+ (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 133.
+ (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 133.
+
+Underfull \hbox (badness 3780) in paragraph at lines 133--133
+[][] [] [] 
+ []
+
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 133.
+<<omx.cmap>>
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 133.
+<azurecert.png, id=17, 100.375pt x 100.375pt>
+File: azurecert.png Graphic file (type png)
+<use azurecert.png>
+Package pdftex.def Info: azurecert.png  used on input line 133.
+(pdftex.def)             Requested size: 100.37474pt x 100.37474pt.
+<azurecert1.png, id=19, 56.87917pt x 56.87917pt>
+File: azurecert1.png Graphic file (type png)
+<use azurecert1.png>
+Package pdftex.def Info: azurecert1.png  used on input line 133.
+(pdftex.def)             Requested size: 56.87901pt x 56.87901pt.
+<terraformcert.png, id=20, 341.275pt x 341.275pt>
+File: terraformcert.png Graphic file (type png)
+<use terraformcert.png>
+Package pdftex.def Info: terraformcert.png  used on input line 133.
+(pdftex.def)             Requested size: 341.27415pt x 341.27415pt.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 145.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 145.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 146.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 55.
-)
-Package biblatex Info: Reference section=0 on input line 91.
-Package biblatex Info: Reference segment=0 on input line 91.
-<K8s.png, id=10, 240.9pt x 240.9pt>
-File: K8s.png Graphic file (type png)
-<use K8s.png>
-Package pdftex.def Info: K8s.png  used on input line 130.
-(pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 130.
-<<omx.cmap>>
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 130.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 130.
+(Font)              scaled to size 9.0pt on input line 147.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 130.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 130.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 130.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 130.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 130.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 130.
- (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 130.
- (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 130.
- (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 130.
-File: K8s.png Graphic file (type png)
-<use K8s.png>
-Package pdftex.def Info: K8s.png  used on input line 130.
-(pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 142.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 142.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 144.
+(Font)              scaled to size 10.0pt on input line 151.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 197.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
- [][][][]
+Overfull \hbox (26.11833pt too wide) in paragraph at lines 270--273
+[][]  [] 
  []
 
 
-Overfull \hbox (26.09247pt too wide) in paragraph at lines 188--197
- []|  [] 
- []
-
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 216.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 220.
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 224.
- (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 231.
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 237--237
-[]|[]| 
+Overfull \hbox (14.41335pt too wide) in paragraph at lines 270--273
+[] 
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 241--241
-[]|[]| 
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+ 
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 245--245
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 249--249
-[]|[]| 
- []
-
-
-Overfull \hbox (17.45445pt too wide) in paragraph at lines 253--257
-[][]  []  []  []  []  
- []
 
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc} <./K8s.png>]
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 290.
-
-
-[2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./victor.aux)
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./azurecert.png> <./azurecert1.png> <./terraformcert.png>] (./victor.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1530,17 +1504,17 @@ Package logreq Info: Writing requests to 'victor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43991 strings out of 475533
- 882941 string characters out of 5777182
- 1980905 words of memory out of 5000000
- 65978 multiletter control sequences out of 15000+600000
- 897014 words of font info for 79 fonts, out of 8000000 for 9000
+ 43367 strings out of 475533
+ 868939 string characters out of 5777182
+ 1959905 words of memory out of 5000000
+ 65378 multiletter control sequences out of 15000+600000
+ 804766 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 125i,10n,121p,1202b,3240s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on victor.pdf (2 pages, 179238 bytes).
+ 125i,8n,121p,1208b,2629s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
+Output written on victor.pdf (1 page, 213498 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
