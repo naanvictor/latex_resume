@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber victor"] 0 "victor.bcf" "victor.bbl" "victor" 1730930386.00446 -1
-  "sample.bib" 1730926108.34639 775 289c4cf794055aaa6975d66c01fed1b6 ""
-  "victor.bcf" 1730930385.85316 108276 87848237bcc8e57609373a3acf4957e9 "pdflatex"
+["biber victor"] 1730933767.51838 "victor.bcf" "victor.bbl" "victor" 1730934241.17354 0
+  "victor.bcf" 1730934240.9915 108276 87848237bcc8e57609373a3acf4957e9 "pdflatex"
   (generated)
   "victor.bbl"
   "victor.blg"
   (rewritten before read)
-["pdflatex"] 1730930384.52573 "/workspaces/latex_resume/victor.tex" "victor.pdf" "victor" 1730930386.00478 0
+["pdflatex"] 1730934239.3605 "/workspaces/latex_resume/victor.tex" "victor.pdf" "victor" 1730934241.1739 0
   "/etc/texmf/web2c/texmf.cnf" 1730886983 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -243,18 +242,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1720733508 41397 9faae6d82bd50f2dbfc10ae285bd31e2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1730886995 5076202 ab2a8c905d17f801ca825d77e8dc7407 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1730887041 6829514 51ca088dbe9e880f4e3cae8c381c8e3e ""
-  "/workspaces/latex_resume/victor.tex" 1730930384.29921 11338 75a3483ff95c6ee2647d3fcf276a0b66 ""
+  "/workspaces/latex_resume/victor.tex" 1730934239.10155 12401 e237c3cb49d96a0f90cdc7983a72d3a7 ""
   "altacv.cls" 1730926108.34539 15647 dd6a0d78ba5f3e06976ffe060862d88b ""
   "azurecert.png" 1730926931.94034 29594 9ea5ba560dc0d1632b6de96d6fab03f9 ""
   "azurecert1.png" 1730927051.2777 41325 6de5a05a9345158d46b139389be8c832 ""
-  "pdfa.xmpi" 1730930384.90119 5042 9544573c105833b4c514bf4d764f50da "pdflatex"
+  "pdfa.xmpi" 1730934239.81253 5042 582e3a75a67bb03761ca9e0109cc1883 "pdflatex"
   "pubs-num.tex" 1730926108.34639 430 c0bbeafd1d4c738c415f863f7e62a637 ""
   "terraformcert.png" 1730927358.79011 20871 950289d07b4b0ecbe3b458d8bdf2c39c ""
-  "victor.aux" 1730930385.84916 279 73573586e6b13d33e6f78cafa5339c33 "pdflatex"
-  "victor.bbl" 1730928671.91214 466 76d65a242ec496c9b4361af646ff12cb "biber victor"
-  "victor.out" 1730930385.57517 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "victor.run.xml" 1730930385.85416 2412 e00899ed5d712c718578adf93aa8f9e0 "pdflatex"
-  "victor.tex" 1730930384.29921 11338 75a3483ff95c6ee2647d3fcf276a0b66 ""
+  "victor.aux" 1730934240.9865 279 22dbea1344fcc4a94bc5e9abf756cf9e "pdflatex"
+  "victor.bbl" 1730933768.31195 466 76d65a242ec496c9b4361af646ff12cb "biber victor"
+  "victor.out" 1730934240.62951 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "victor.run.xml" 1730934240.9925 2412 e00899ed5d712c718578adf93aa8f9e0 "pdflatex"
+  "victor.tex" 1730934239.10155 12401 e237c3cb49d96a0f90cdc7983a72d3a7 ""
   (generated)
   "pdfa.xmpi"
   "victor.aux"
