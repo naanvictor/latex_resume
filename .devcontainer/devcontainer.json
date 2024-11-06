@@ -1,6 +1,6 @@
 {
     "name": "TeX Live base",
-    "dockerFile": "Dockerfile",
+    "image": "naanvictor/latex_image:latest",
     "customizations": {
         "vscode": {
             "extensions": ["james-yu.latex-workshop"]
