@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  7 NOV 2024 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  10 NOV 2024 23:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1474,13 +1474,20 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 151.
 
-Overfull \hbox (15.57335pt too wide) in paragraph at lines 273--273
+Overfull \hbox (1.14574pt too wide) in paragraph at lines 170--171
+[]\T1/lato-TLF/m/n/9 Reduced the op-er-a-tions team's man-ual work-load by au-tomat-ing rou-tine tasks, achiev- 
+ []
+
+
+Overfull \hbox (15.57335pt too wide) in paragraph at lines 280--280
 [][]  
  []
 
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./azurecert.png> <./azurecert1.png> <./terraformcert.png>] (./victor.aux)
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./azurecert.png> <./azurecert1.png> <./terraformcert.png>] [2]
+
+[3] (./victor.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1492,17 +1499,17 @@ Package logreq Info: Writing requests to 'victor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43371 strings out of 475533
- 869043 string characters out of 5777182
- 1967905 words of memory out of 5000000
+ 43373 strings out of 475533
+ 869055 string characters out of 5777182
+ 1973905 words of memory out of 5000000
  65382 multiletter control sequences out of 15000+600000
  804766 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  125i,8n,121p,1208b,2649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on victor.pdf (1 page, 222668 bytes).
+Output written on victor.pdf (3 pages, 226928 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
