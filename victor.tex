@@ -15,7 +15,7 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\documentclass[11pt,a3paper,ragged2e,withhyper]{altacv}
 %% AltaCV uses the fontawesome5 and simpleicons packages.
 %% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.
 
@@ -30,11 +30,11 @@
 % you're using pdflatex or xelatex/lualatex
 % WHEN COMPILING WITH XELATEX PLEASE USE
 % xelatex -shell-escape -output-driver="xdvipdfmx -z 0" mmayer.tex
-\ifxetexorluatex
+\iftutex
   % If using xelatex or lualatex:
   \setmainfont{Lato}
 \else
-  % guy If using pdflatex:
+  % If using pdflatex:
   \usepackage[default]{lato}
 \fi
 
@@ -58,8 +58,11 @@
 % \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
 % \renewcommand{\personalinfofont}{\footnotesize}
 % \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
-% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+% \renewcommand{\cvsubsectionfont}{\small\FiraSans}
+%\usepackage[sfdefault]{roboto} % Use Roboto as the sans-serif font
 
+%\renewcommand{\familydefault}{\sfdefault} % Make Roboto the default font
+%\renewcommand{\cvsubsectionfont}{\large\FiraSans}
 % Change the bullets for itemize and rating marker
 % for \cvskill if you want to
 \renewcommand{\cvItemMarker}{{\small\textbullet}}
@@ -98,7 +101,7 @@
 %% You can add multiple photos on the left or right
  %\photoL{2cm}{Yacht_High,Suitcase_High}
  %\photoL{2cm}{azurecert}
- \photoR{2cm}{azurecert,azurecert1,terraformcert}
+ \photoR{2cm}{azurecert,azurecert1}
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
@@ -136,20 +139,20 @@
 \AtBeginEnvironment{itemize}{\small}
 
 %% Set the left/right column width ratio to 6:4.
-\columnratio{0.7}
+\columnratio{0.8}
 
 % Start a 2-column paracol. Both the left and right columns will automatically
 % break across pages if things get too long.
 \begin{paracol}{2}
 
-  \cvsection{Career Summary}
+  \cvsection{\faSuitcase\ Career Summary}
   \begin{itemize}
     \item Experienced Systems Engineer passionate about building efficient, scalable, and secure solutions for Cloud. Over the years, I’ve honed my skills in implementing CI/CD pipelines, managing infrastructure with IaC tools like Terraform, and containerizing applications with Docker and Kubernetes. Skilled in enabling cross-functional teams through training and continuous improvement initiatives.
  %   \item Experienced Systems Engineer with over 11 Years of solid background in Linux, Kubernetes and VMware with focus on designing, implementing, and optimizing software delivery using CI/CD pipelines. Proficient in deploying and managing cloud and on-premise infrastructure, with expertise in monitoring and troubleshooting complex environments to enhance system stability and performance.
   \end{itemize}
-\cvsection{Experience}
+\cvsection{\faBriefcase\ Experience}
 
-\cvevent{DevOps/WinOps Engineer}{Deriv}{Oct 2023 -- Ongoing}{Dubai, UAE}
+\cvevent{\faArrowAltCircleRight\ DevOps/WinOps Engineer}{Deriv}{Oct 2023 -- Ongoing}{Dubai, UAE}
 \begin{itemize}
   \item Managed infrastructure as code with tools like Terraform and CloudFormation, and built CI/CD pipelines using GitHub Actions and Octopus Deploy to facilitate faster and more reliable deployments.
   \item Established a robust monitoring setup for EKS with Prometheus, AWS CloudWatch, FluentBit, Grafana, and DataDog to minimize downtime and boost reliability, alongside creating Helm Charts for consistent, scalable microservices deployments.
@@ -160,7 +163,7 @@
 
 \divider
 
-\cvevent{System Administrator Specialist}{FIS}{Dec 2021 -- Oct 2023}{Chennai, India}
+\cvevent{\faArrowAltCircleRight\ System Administrator Specialist}{FIS}{Dec 2021 -- Oct 2023}{Chennai, India}
 \begin{itemize}
   \item   Strengthened the security of Linux environments by configuring firewalls, enforcing secure SSH practices, implementing regular patching schedules, and conducting vulnerability assessments to protect against potential threats and ensure compliance with security standards.
 \item Automated infrastructure provisioning on AWS using CloudFormation and Terraform, reducing manual intervention by 80\%.
@@ -173,7 +176,7 @@
 
 \divider
 \newpage
-\cvevent{Lead Systems Engineer}{Fidelity Investments}{Mar 2016 --  Dec 2021}{Chennai, India}
+\cvevent{\faArrowAltCircleRight\ Lead Systems Engineer}{Fidelity Investments}{Mar 2016 --  Dec 2021}{Chennai, India}
 \begin{itemize}
   \item Oversaw a large-scale VMware infrastructure comprising over 10,000 servers across diverse hardware and software configurations. Implemented proactive monitoring and troubleshooting strategies to maintain high performance and reliability, ensuring seamless operation across a complex virtualized environment.
   \item Strengthened security for Windows servers by implementing Active Directory policies, configuring firewall rules, applying regular updates, and conducting security audits, ensuring secure and compliant Windows infrastructure for critical applications.
@@ -185,19 +188,16 @@
   \end{itemize}
 \divider
 
-\cvevent{Senior Analyst}{HCL Technologies}{Mar 2013 -- Mar 2016}{Chennai, India}
+\cvevent{\faArrowAltCircleRight\ Junior Analyst \faArrowRight\ Senior Analyst}{HCL Technologies}{Mar 2013 -- Mar 2016}{Chennai, India}
 
-\begin{itemize}
+\begin{itemize}{\small}
 
 
 
-\item  Troubleshot L1/L2 Incidents Across VMware, Windows, and Exchange Environments by Provideding Level 1 and Level 2 support for incidents on VMware, Windows servers, and Exchange environments, ensuring rapid diagnosis and resolution to maintain high availability and minimize downtime. Emphasized security best practices in all troubleshooting processes to safeguard system integrity.
-
-\item Implemented and Secured Configuration Changes on Windows and Exchange Servers by Managed configuration changes on Windows and Exchange servers, adhering to change management protocols to ensure security and compliance. Applied rigorous access controls and encryption to protect sensitive data and maintain regulatory compliance.
-
-\item Managed and Secured VMware vSphere Environment: Oversaw the VMware vSphere environment, focusing on performance optimization, resource management, and security. Ensured strict adherence to SLA requirements and implemented robust access controls, network segmentation, and regular patching to enhance security and operational stability.
-
-\item Enhanced Security Posture Across VMware, Windows, and Exchange Platforms by Conducted regular security audits and vulnerability assessments within VMware, Windows, and Exchange environments to proactively identify and address potential threats. Applied role-based access control (RBAC), encryption, and secure communication protocols to protect systems and data.
+\item  Managed VMware vSphere infrastructure, ensuring high availability and maximum uptime. Performed patch management, applied hardware fixes, and troubleshot issues to maintain smooth infrastructure operations.
+\item Handled the installation, configuration, and troubleshooting of Windows Server 2008 and 2012/R2. Managed Active Directory, DNS, DHCP, and Group Policy configurations to ensure system functionality and security.
+\item Installed and hardened Linux systems, implementing routine patch management, proactive monitoring, and issue resolution to maintain performance and security.
+\item Followed ITsSM processes for incident, change, and problem management, ensuring strict compliance with SLAs.
 \end{itemize}
 % \divider
 
@@ -206,7 +206,7 @@
 % \begin{itemize}
 % \item Joined the company as employe \#20 and female employee \#1
 % \item Developed targeted advertisement in order to use user's search queries and show them related ads
-% \end{itemize}
+% \end{itemize} 
 %i commented
 %\cvsection{A Day of My Life}
 
