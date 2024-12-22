@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  2 DEC 2024 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  22 DEC 2024 00:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -11,8 +11,8 @@ L3 programming layer <2024-05-27>
 Document Class: altacv 2024/08/25 AltaCV v1.7.2, yet another alternative class for a resume/curriculum vitae.
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
@@ -1315,8 +1315,13 @@ LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input lin
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 94.
- (./victor.aux)
+(Font)              scaled to size 10.95pt on input line 94.
+
+
+LaTeX Warning: Unused global option(s):
+    [a3paper].
+
+(./victor.aux)
 \openout1 = `victor.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -1366,27 +1371,27 @@ Package hyperref Info: Link coloring OFF on input line 94.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: a3paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(35.56593pt, 526.376pt, 35.56593pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=526.376pt
-* \textheight=759.6886pt
+* h-part:(L,W,R)=(35.56593pt, 773.91498pt, 35.56593pt)
+* v-part:(T,H,B)=(42.67912pt, 1109.6575pt, 42.67912pt)
+* \paperwidth=845.04684pt
+* \paperheight=1195.01575pt
+* \textwidth=773.91498pt
+* \textheight=1109.6575pt
 * \oddsidemargin=-36.70406pt
 * \evensidemargin=-36.70406pt
 * \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
 * \columnsep=34.14322pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1422,28 +1427,20 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 133.
-
-Underfull \hbox (badness 2409) in paragraph at lines 133--133
-[][] [] [] 
- []
-
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 133.
-<<omx.cmap>>
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 133.
+(Font)              <6> on input line 133.
 <azurecert.png, id=18, 100.375pt x 100.375pt>
 File: azurecert.png Graphic file (type png)
 <use azurecert.png>
@@ -1464,36 +1461,16 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 145.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 146.
+(Font)              scaled to size 10.0pt on input line 146.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 147.
+(Font)              scaled to size 10.0pt on input line 147.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 152.
-
-Overfull \hbox (1.14574pt too wide) in paragraph at lines 170--171
-[]\T1/lato-TLF/m/n/9 Reduced the op-er-a-tions team's man-ual work-load by au-tomat-ing rou-tine tasks, achiev- 
- []
-
-
-Overfull \hbox (0.94778pt too wide) in paragraph at lines 196--197
-[]\T1/lato-TLF/m/n/9 Implemented and Se-cured Con-fig-u-ra-tion Changes on Win-dows and Ex-change Servers 
- []
-
-
-Overfull \hbox (1.43562pt too wide) in paragraph at lines 198--199
-[]\T1/lato-TLF/m/n/9 Managed and Se-cured VMware vSphere En-vi-ron-ment: Over-saw the VMware vSphere 
- []
-
-
-Overfull \hbox (15.57335pt too wide) in paragraph at lines 288--288
-[][]  
- []
-
-[1
+(Font)              scaled to size 10.95pt on input line 152.
+ [1
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./azurecert.png> <./azurecert1.png> <./terraformcert.png>]
 
@@ -1509,15 +1486,15 @@ Package logreq Info: Writing requests to 'victor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43372 strings out of 475533
- 869049 string characters out of 5777182
- 1982905 words of memory out of 5000000
- 65382 multiletter control sequences out of 15000+600000
- 804766 words of font info for 64 fonts, out of 8000000 for 9000
+ 43391 strings out of 475533
+ 869275 string characters out of 5777182
+ 1981905 words of memory out of 5000000
+ 65393 multiletter control sequences out of 15000+600000
+ 807958 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  125i,8n,121p,1208b,2665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on victor.pdf (2 pages, 228419 bytes).
+Output written on victor.pdf (2 pages, 228858 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)

@@ -15,7 +15,7 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\documentclass[11pt,a3paper,ragged2e,withhyper]{altacv}
 %% AltaCV uses the fontawesome5 and simpleicons packages.
 %% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.
 
@@ -30,11 +30,11 @@
 % you're using pdflatex or xelatex/lualatex
 % WHEN COMPILING WITH XELATEX PLEASE USE
 % xelatex -shell-escape -output-driver="xdvipdfmx -z 0" mmayer.tex
-\ifxetexorluatex
+\iftutex
   % If using xelatex or lualatex:
   \setmainfont{Lato}
 \else
-  % guy If using pdflatex:
+  % If using pdflatex:
   \usepackage[default]{lato}
 \fi
 
