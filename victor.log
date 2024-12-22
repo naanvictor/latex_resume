@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  22 DEC 2024 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  22 DEC 2024 10:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1470,7 +1470,12 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 147.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 152.
- [1
+
+Overfull \hbox (16.01096pt too wide) in paragraph at lines 168--169
+[]\T1/lato-TLF/m/n/10 Deployed and man-aged con-tainer-ized ap-pli-ca-tions with Docker and Ku-ber-netes, in-te-grat-ing them into Jenk-ins pipelines.  
+ []
+
+[1
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./azurecert.png> <./azurecert1.png> <./terraformcert.png>]
 
@@ -1494,7 +1499,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  125i,8n,121p,1208b,2665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on victor.pdf (2 pages, 229346 bytes).
+Output written on victor.pdf (2 pages, 229330 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
