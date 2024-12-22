@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  22 DEC 2024 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  22 DEC 2024 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1471,8 +1471,13 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 152.
 
-Overfull \hbox (16.01096pt too wide) in paragraph at lines 168--169
+Overfull \hbox (16.01096pt too wide) in paragraph at lines 171--172
 []\T1/lato-TLF/m/n/10 Deployed and man-aged con-tainer-ized ap-pli-ca-tions with Docker and Ku-ber-netes, in-te-grat-ing them into Jenk-ins pipelines.  
+ []
+
+
+Overfull \hbox (2.726pt too wide) in paragraph at lines 187--188
+[]\T1/lato-TLF/m/n/10 Developed ad-vanced shell scripts for au-tomat-ing in-fras-truc-ture mon-i-tor-ing, ap-pli-ca-tion de-ploy-ment, and data backup 
  []
 
 [1
@@ -1491,15 +1496,15 @@ Package logreq Info: Writing requests to 'victor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43392 strings out of 475533
- 869304 string characters out of 5777182
- 1980905 words of memory out of 5000000
- 65394 multiletter control sequences out of 15000+600000
- 808266 words of font info for 76 fonts, out of 8000000 for 9000
+ 43393 strings out of 475533
+ 869336 string characters out of 5777182
+ 1982905 words of memory out of 5000000
+ 65395 multiletter control sequences out of 15000+600000
+ 808574 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  125i,8n,121p,1208b,2665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on victor.pdf (2 pages, 229330 bytes).
+Output written on victor.pdf (2 pages, 231121 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
