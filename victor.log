@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  22 DEC 2024 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  10 JAN 2025 20:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1463,26 +1463,26 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 147.
+
+Overfull \hbox (7.651pt too wide) in paragraph at lines 147--149
+[]\T1/lato-TLF/m/n/10 Experienced Sys-tems En-gi-neer pas-sion-ate about build-ing ef-fi-cient, scal-able, and se-cure so-lu-tions for both on-premises 
+ []
+
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 150.
- (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 152.
 
-Overfull \hbox (16.01096pt too wide) in paragraph at lines 171--172
-[]\T1/lato-TLF/m/n/10 Deployed and man-aged con-tainer-ized ap-pli-ca-tions with Docker and Ku-ber-netes, in-te-grat-ing them into Jenk-ins pipelines.  
- []
-
-
-Overfull \hbox (2.726pt too wide) in paragraph at lines 187--188
+Overfull \hbox (2.726pt too wide) in paragraph at lines 186--187
 []\T1/lato-TLF/m/n/10 Developed ad-vanced shell scripts for au-tomat-ing in-fras-truc-ture mon-i-tor-ing, ap-pli-ca-tion de-ploy-ment, and data backup 
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <17.28> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 294.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 315.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 292.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 314.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <17.28> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 315.
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 314.
  [1
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc} <./azurecert.png> <./azurecert1.png>]
@@ -1501,13 +1501,13 @@ Package logreq Info: Writing requests to 'victor.run.xml'.
 Here is how much of TeX's memory you used:
  43420 strings out of 475533
  870226 string characters out of 5777182
- 1985905 words of memory out of 5000000
+ 1989905 words of memory out of 5000000
  65412 multiletter control sequences out of 15000+600000
  809441 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 125i,8n,121p,1208b,2649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,8n,121p,1208b,2651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on victor.pdf (2 pages, 212793 bytes).
+Output written on victor.pdf (2 pages, 213293 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
