@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber victor"] 1730933767.51838 "victor.bcf" "victor.bbl" "victor" 1734871934.13945 0
-  "victor.bcf" 1734871933.71549 108276 87848237bcc8e57609373a3acf4957e9 "pdflatex"
+["biber victor"] 1730933767.51838 "victor.bcf" "victor.bbl" "victor" 1737929634.4918 0
+  "victor.bcf" 1737929634.33461 108276 87848237bcc8e57609373a3acf4957e9 "pdflatex"
   (generated)
   "victor.bbl"
   "victor.blg"
   (rewritten before read)
-["pdflatex"] 1734871930.17648 "/workspaces/latex_resume/victor.tex" "victor.pdf" "victor" 1734871934.14912 0
+["pdflatex"] 1737929632.98979 "/workspaces/latex_resume/victor.tex" "victor.pdf" "victor" 1737929634.49211 0
   "/etc/texmf/web2c/texmf.cnf" 1730886983 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -259,17 +259,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1720733508 41397 9faae6d82bd50f2dbfc10ae285bd31e2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1730886995 5076202 ab2a8c905d17f801ca825d77e8dc7407 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1730887041 6829514 51ca088dbe9e880f4e3cae8c381c8e3e ""
-  "/workspaces/latex_resume/victor.tex" 1734871929.88912 18179 aa750c1243fe4a62e0ff27121eebb743 ""
-  "altacv.cls" 1734826193.11833 15647 dd6a0d78ba5f3e06976ffe060862d88b ""
-  "azurecert.png" 1734297499.99495 29594 9ea5ba560dc0d1632b6de96d6fab03f9 ""
-  "azurecert1.png" 1734297499.99495 41325 6de5a05a9345158d46b139389be8c832 ""
-  "pdfa.xmpi" 1734871931.1502 5042 f6b48f76a19db714b458dfc48f293d3c "pdflatex"
-  "pubs-num.tex" 1734826193.16869 430 c0bbeafd1d4c738c415f863f7e62a637 ""
-  "victor.aux" 1734871933.7023 279 22dbea1344fcc4a94bc5e9abf756cf9e "pdflatex"
-  "victor.bbl" 1734825239.85666 466 76d65a242ec496c9b4361af646ff12cb "biber victor"
-  "victor.out" 1734871932.87613 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "victor.run.xml" 1734871933.72202 2412 e00899ed5d712c718578adf93aa8f9e0 "pdflatex"
-  "victor.tex" 1734871929.88912 18179 aa750c1243fe4a62e0ff27121eebb743 ""
+  "/workspaces/latex_resume/victor.tex" 1737929632.74927 18179 d1b8d898aaf96d9ea1646437017fdff8 ""
+  "altacv.cls" 1736540087.56843 15647 dd6a0d78ba5f3e06976ffe060862d88b ""
+  "azurecert.png" 1736540087.57044 29594 9ea5ba560dc0d1632b6de96d6fab03f9 ""
+  "azurecert1.png" 1736540087.57044 41325 6de5a05a9345158d46b139389be8c832 ""
+  "pdfa.xmpi" 1737929633.36301 5042 1400101850e0499ec8a7f55ba69836e3 "pdflatex"
+  "pubs-num.tex" 1736540087.57044 430 c0bbeafd1d4c738c415f863f7e62a637 ""
+  "victor.aux" 1737929634.33061 279 22dbea1344fcc4a94bc5e9abf756cf9e "pdflatex"
+  "victor.bbl" 1736680225.38938 466 76d65a242ec496c9b4361af646ff12cb "biber victor"
+  "victor.out" 1737929634.03473 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "victor.run.xml" 1737929634.33461 2412 e00899ed5d712c718578adf93aa8f9e0 "pdflatex"
+  "victor.tex" 1737929632.74927 18179 d1b8d898aaf96d9ea1646437017fdff8 ""
   (generated)
   "pdfa.xmpi"
   "victor.aux"
