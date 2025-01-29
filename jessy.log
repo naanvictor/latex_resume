@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  26 JAN 2025 22:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.11.6)  29 JAN 2025 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1357,7 +1357,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 91.
- (./jessy.out) (./jessy.out)
 \@outlinefile=\write6
 \openout6 = `jessy.out'.
 
@@ -1412,13 +1411,13 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'jessy.bbl' found.
  (./jessy.bbl
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 55.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 55.
+(Font)              scaled to size 9.0pt on input line 31.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 55.
+(Font)              scaled to size 9.0pt on input line 31.
 )
 Package biblatex Info: Reference section=0 on input line 91.
 Package biblatex Info: Reference segment=0 on input line 91.
@@ -1436,23 +1435,12 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 8.0pt on input line 131.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 131.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 131.
- (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 131.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+simpleiconsonetwo on input line 131.
- (/usr/share/texlive/texmf-dist/tex/latex/simpleicons/usimpleiconsonetwo.fd
-File: usimpleiconsonetwo.fd 2024/07/05 Font definitions for U/simpleiconsonetwo.
-)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 131.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 131.
-
-Underfull \hbox (badness 3646) in paragraph at lines 131--131
-[][] [] [] [] 
- []
-
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <7> on input line 131.
@@ -1464,78 +1452,207 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 142.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 147.
+(Font)              scaled to size 10.0pt on input line 151.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 210.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
- [][][][]
+Overfull \hbox (4.27554pt too wide) in paragraph at lines 166--167
+[]\T1/lato-TLF/m/n/9 Assist with grad-ing, at-ten-dance track-ing, and main-tain-ing stu-dent records. 
  []
 
+/workspaces/latex_resume/jessy.tex:172: Undefined control sequence.
+l.172 ...Study \& In-vitro Antioxidant Assay of \‚
+                                                  ÄòParutti Vitai Curanam\‚Ä...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (26.09247pt too wide) in paragraph at lines 201--210
- []|  [] 
- []
 
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 229.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 237.
+/workspaces/latex_resume/jessy.tex:172: LaTeX Error: Invalid UTF-8 byte "80.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...tudy \& In-vitro Antioxidant Assay of \‚Ä
+                                                  òParutti Vitai Curanam\‚Äô...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+/workspaces/latex_resume/jessy.tex:172: LaTeX Error: Invalid UTF-8 byte "98.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...udy \& In-vitro Antioxidant Assay of \‚Äò
+                                                  Parutti Vitai Curanam\‚Äô ...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+/workspaces/latex_resume/jessy.tex:172: Undefined control sequence.
+l.172 ...dant Assay of \‚ÄòParutti Vitai Curanam\‚
+                                                  Äô \‚Äì A Siddha Drug‚Äù u...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/workspaces/latex_resume/jessy.tex:172: LaTeX Error: Invalid UTF-8 byte "80.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...ant Assay of \‚ÄòParutti Vitai Curanam\‚Ä
+                                                  ô \‚Äì A Siddha Drug‚Äù un...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+/workspaces/latex_resume/jessy.tex:172: LaTeX Error: Invalid UTF-8 byte "99.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...nt Assay of \‚ÄòParutti Vitai Curanam\‚Äô
+                                                   \‚Äì A Siddha Drug‚Äù und...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+/workspaces/latex_resume/jessy.tex:172: Undefined control sequence.
+l.172 ...Assay of \‚ÄòParutti Vitai Curanam\‚Äô \‚
+                                                  Äì A Siddha Drug‚Äù under ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/workspaces/latex_resume/jessy.tex:172: LaTeX Error: Invalid UTF-8 byte "80.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...ssay of \‚ÄòParutti Vitai Curanam\‚Äô \‚Ä
+                                                  ì A Siddha Drug‚Äù under t...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+/workspaces/latex_resume/jessy.tex:172: LaTeX Error: Invalid UTF-8 byte "93.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...say of \‚ÄòParutti Vitai Curanam\‚Äô \‚Äì
+                                                   A Siddha Drug‚Äù under th...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 207--207
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 211--211
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 215--215
+[]|[]| 
+ []
+
+
+Overfull \hbox (30.75945pt too wide) in paragraph at lines 227--232
+[] 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 247.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+/workspaces/latex_resume/jessy.tex:247: Misplaced alignment tab character &.
+<inserted text> Hptlc study &
+                              in-vitro antioxidant assay of parutti vitai cu...
+l.247 ...gular]}{Journal Articles}}, type=article]
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 244.
+(Font)              scaled to size 10.0pt on input line 247.
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 250--250
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 254--254
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 258--258
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 262--262
-[]|[]| 
- []
 
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/simpleicons/simpleiconsonetwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}]
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 304.
- [2]
-
-[3] (./jessy.aux)
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}] (./jessy.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-Package rerunfilecheck Info: File `jessy.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `jessy.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `jessy.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                jessy
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'jessy.run.xml'.
 \openout1 = `jessy.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43982 strings out of 475533
- 882872 string characters out of 5777182
- 1974905 words of memory out of 5000000
- 65963 multiletter control sequences out of 15000+600000
- 897889 words of font info for 82 fonts, out of 8000000 for 9000
+ 43567 strings out of 475533
+ 873359 string characters out of 5777182
+ 1963905 words of memory out of 5000000
+ 65567 multiletter control sequences out of 15000+600000
+ 850034 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 125i,10n,121p,1207b,3247s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/simpleicons/SimpleIcons.pfb>
-Output written on jessy.pdf (3 pages, 178534 bytes).
+ 125i,10n,121p,1207b,2615s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
+Output written on jessy.pdf (1 page, 159887 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

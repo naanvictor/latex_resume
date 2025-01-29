@@ -19,6 +19,16 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{Jescelin:else:2017}{article}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{World Journal of Pharmacy and Pharmaceutical Sciences}
+      \field{title}{HPTLC Study & In-Vitro Antioxidant Assay of Parutti Vitai Curanam – A Siddha Drug}
+      \field{volume}{ISSN: 2278-4357, 6(10): 790-799}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
     \entry{else:lim.init:2010}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{hash=e871c5bc96e9780c74c71766e8585e61}{%
@@ -53,37 +63,6 @@
       \field{year}{2013}
       \true{nocite}
     \endentry
-    \entry{wong:else:2011}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=2d0cc1f7e5502f5a8f939a7cbf51c886}{%
-           family={Wong},
-           familyi={W\bibinitperiod},
-           given={Lian\bibnamedelima Tze},
-           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=e871c5bc96e9780c74c71766e8585e61}{%
-           family={Someone},
-           familyi={S\bibinitperiod},
-           given={Else},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{275f39a01a92681b9e7ad6c190be4504}
-      \strng{fullhash}{275f39a01a92681b9e7ad6c190be4504}
-      \strng{fullhashraw}{275f39a01a92681b9e7ad6c190be4504}
-      \strng{bibnamehash}{275f39a01a92681b9e7ad6c190be4504}
-      \strng{authorbibnamehash}{275f39a01a92681b9e7ad6c190be4504}
-      \strng{authornamehash}{275f39a01a92681b9e7ad6c190be4504}
-      \strng{authorfullhash}{275f39a01a92681b9e7ad6c190be4504}
-      \strng{authorfullhashraw}{275f39a01a92681b9e7ad6c190be4504}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Carrying On}
-      \field{title}{A Non-Existant Paper}
-      \field{volume}{12}
-      \field{year}{2011}
-      \true{nocite}
-    \endentry
     \entry{else:lim:2010}{book}{}{}
       \name{author}{2}{}{%
         {{hash=e871c5bc96e9780c74c71766e8585e61}{%
@@ -115,42 +94,6 @@
       \field{labeltitlesource}{title}
       \field{title}{A Fictional Research}
       \field{year}{2010}
-      \true{nocite}
-    \endentry
-    \entry{lim:else:2011}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=0bcf893fe776f3abb3b72e9c58a1e8f5}{%
-           family={Lim},
-           familyi={L\bibinitperiod},
-           given={Lian\bibnamedelima Tze},
-           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=e871c5bc96e9780c74c71766e8585e61}{%
-           family={Someone},
-           familyi={S\bibinitperiod},
-           given={Else},
-           giveni={E\bibinitperiod}}}%
-        {{hash=d28fe45e5d7bcfa1aa0bf741bc5db85c}{%
-           family={Other},
-           familyi={O\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b30d7085d8210ca87eaf4b97621cbd32}
-      \strng{fullhash}{b30d7085d8210ca87eaf4b97621cbd32}
-      \strng{fullhashraw}{b30d7085d8210ca87eaf4b97621cbd32}
-      \strng{bibnamehash}{b30d7085d8210ca87eaf4b97621cbd32}
-      \strng{authorbibnamehash}{b30d7085d8210ca87eaf4b97621cbd32}
-      \strng{authornamehash}{b30d7085d8210ca87eaf4b97621cbd32}
-      \strng{authorfullhash}{b30d7085d8210ca87eaf4b97621cbd32}
-      \strng{authorfullhashraw}{b30d7085d8210ca87eaf4b97621cbd32}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Carrying On}
-      \field{title}{A Study into Fireside Story-Telling}
-      \field{volume}{7}
-      \field{year}{2008}
       \true{nocite}
     \endentry
   \enddatalist

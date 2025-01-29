@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber jessy"] 1737929258.20315 "jessy.bcf" "jessy.bbl" "jessy" 1737929478.48749 0
-  "jessy.bcf" 1737929478.30696 108748 aefb83966e1bc0c020aee7008970563c "pdflatex"
-  "sample.bib" 1736540087.57044 775 289c4cf794055aaa6975d66c01fed1b6 ""
+["biber jessy"] 0 "jessy.bcf" "jessy.bbl" "jessy" 1738189171.10632 -1
+  "jessy.bcf" 1738189170.775 108748 aefb83966e1bc0c020aee7008970563c "pdflatex"
+  "sample.bib" 1738188901.55754 662 d22ee39216f832465977f52f7720fd35 ""
   (generated)
   "jessy.bbl"
   "jessy.blg"
   (rewritten before read)
-["pdflatex"] 1737929477.11483 "/workspaces/latex_resume/jessy.tex" "jessy.pdf" "jessy" 1737929478.48781 0
+["pdflatex"] 1738189168.63391 "/workspaces/latex_resume/jessy.tex" "jessy.pdf" "jessy" 1738189171.10698 2
   "/etc/texmf/web2c/texmf.cnf" 1730886983 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -15,7 +15,6 @@
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc" 1622837620 2905 1556c73dc99638e0dfff2f132c244f30 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561498483 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1561498483 3345 f5bff336afd6959239b79815a9c623d1 ""
-  "/usr/share/texlive/texmf-dist/fonts/enc/dvips/simpleicons/simpleiconsonetwo.enc" 1720213706 3501 2f59fabc64a2b5d5c8f019b48509fb67 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -23,10 +22,8 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0regular.tfm" 1622837620 1132 8aee78c25f591abde3c9ce09e694423f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm" 1622837620 1328 8843c76048ec1e1c4b2d1007558b8833 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm" 1622837620 1204 3c27bf26105e0c1f2d31dba92f1c652d ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1622837620 1316 1c2ee668ea88be9bd4f39690662cc344 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm" 1622837620 1340 b21002f38a477f345fa9dc96a5613e2b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free3solid.tfm" 1622837620 1236 01f4577264ada23bfb25b6d983302f6b ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/simpleicons/SimpleIcons--simpleiconsonetwo.tfm" 1720213706 1232 034d51320dcdeca8ab090f4d4774b337 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm" 1508701834 1752 aa8a9a51afbe0c049fcf83621d6260a5 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm" 1561498483 87492 7b51503c59ec74593309019708c7ca72 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm" 1561151678 1888 3ec6bb03fd856bf4662a97cf4e6d2192 ""
@@ -38,7 +35,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb" 1651520503 204258 177851ae99767090543ae24e73c92f2f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb" 1651520503 58496 99faf1e070706908acf67d1cfee72833 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1651520503 295323 d099723373a00cc17d5ae0c9738bb5b3 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/simpleicons/SimpleIcons.pfb" 1720213706 2274891 8ce610e5929c14f30f3a92b964af9a4c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb" 1561498483 440414 ec7bef9aca5d79a80bbd76185c8c7134 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb" 1561498483 472156 f4bc4b13f4231ad168df6d155c6be129 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb" 1561498483 444904 de6a6df3ed74129eebd99fc724b7f3fb ""
@@ -238,7 +234,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/simpleicons/simpleicons.sty" 1720213706 1743 c4895350db137dcaf62b05db61229425 ""
   "/usr/share/texlive/texmf-dist/tex/latex/simpleicons/simpleiconsglyphs-pdftex.tex" 1720213706 303494 e511c808d4e7711f41a57a09d7470be7 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/simpleicons/usimpleiconsonetwo.fd" 1720213706 269 f62698401ee817053d60a5e75cfdf022 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex" 1704919444 84115 4b15eb64e93c3991d815e8170f8d1a95 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex" 1704919444 10040 27e9c9197a2de0b5b4144c323ddb740a ""
   "/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty" 1704919444 103614 1ca07ac773e16c641eabdcbf98c7511d ""
@@ -258,14 +253,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1720733508 41397 9faae6d82bd50f2dbfc10ae285bd31e2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1730886995 5076202 ab2a8c905d17f801ca825d77e8dc7407 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1730887041 6829514 51ca088dbe9e880f4e3cae8c381c8e3e ""
-  "/workspaces/latex_resume/jessy.tex" 1737929476.85404 11596 00f2193531938384dae1769d3240f4f7 ""
+  "/workspaces/latex_resume/jessy.tex" 1738189165.1251 10197 6113cfd8783520b3979a18282fcd1a3c ""
   "altacv.cls" 1736540087.56843 15647 dd6a0d78ba5f3e06976ffe060862d88b ""
-  "jessy.aux" 1737929478.30296 930 23be8cb879b87f8a2289931e840bcdb7 "pdflatex"
-  "jessy.bbl" 1737929258.9422 6085 5516dd493499c5c445e95167c11d4a67 "biber jessy"
-  "jessy.out" 1737929477.91398 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "jessy.run.xml" 1737929478.30796 2405 2c419edd03cfdecb273cbcad4deab09c "pdflatex"
-  "jessy.tex" 1737929476.85404 11596 00f2193531938384dae1769d3240f4f7 ""
-  "pdfa.xmpi" 1737929477.37601 5042 89f9f49b44752bd8df61a9e0049b1d9d "pdflatex"
+  "jessy.aux" 1738189170.767 380 5dbf2e96c85d5080b6f121817f081ac7 "pdflatex"
+  "jessy.bbl" 1738188903.0515 3730 2fabea2ffc570bb2d5362628f86f3019 "biber jessy"
+  "jessy.out" 1738189170.37201 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "jessy.tex" 1738189165.1251 10197 6113cfd8783520b3979a18282fcd1a3c ""
+  "pdfa.xmpi" 1738189169.30803 5042 d8e28167873cb0121dc9ad8648c186a2 "pdflatex"
   "pubs-num.tex" 1736540087.57044 430 c0bbeafd1d4c738c415f863f7e62a637 ""
   (generated)
   "jessy.aux"
