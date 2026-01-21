@@ -19,16 +19,14 @@
 %% AltaCV uses the fontawesome5 and simpleicons packages.
 %% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.s
 
-% Optimized page layout for better readability
-\geometry{left=1.5cm,right=1.5cm,top=1.8cm,bottom=1.8cm,columnsep=1.5cm}
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 % Package for dark mode background
 \usepackage{pagecolor}
 \usepackage{xcolor}
-% For better spacing and typography
-\usepackage{microtype}
 
 
 % Change the font if you want to, depending on whether
@@ -64,11 +62,11 @@
 \colorlet{emphasis}{LightText}
 \colorlet{body}{MediumText}
 
-% Enhanced fonts for better readability and professional appearance
-\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
-\renewcommand{\personalinfofont}{\small}
-\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
-\renewcommand{\cvsubsectionfont}{\large\bfseries}
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
 
 % Change the bullets for itemize and rating marker
 % for \cvskill if you want to
@@ -142,11 +140,11 @@
 
 \makecvheader
 
-%% Optimized itemize spacing for better readability
-\AtBeginEnvironment{itemize}{\small\setlength{\itemsep}{0.3em}\setlength{\parskip}{0pt}}
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
 
-%% Set the left/right column width ratio to 6:4 for balanced layout
-\columnratio{0.68}
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.7}
 
 % Start a 2-column paracol. Both the left and right columns will automatically
 % break across pages if things get too long.
@@ -155,60 +153,84 @@
   \cvsection{\faBriefcase\ Professional Summary}
 
   \medskip
-  Experienced DevOps Engineer with 11+ years of expertise in building efficient, scalable, and secure cloud solutions. Specialized in implementing CI/CD pipelines, managing infrastructure with IaC tools, and orchestrating containerized applications with Docker and Kubernetes. Proven track record in enhancing system reliability, automating workflows, and enabling cross-functional teams through training and continuous improvement.
+  Experienced Systems Engineer with 12+ years of expertise in trading platform administration, cloud infrastructure management, and DevOps automation. Specialized in MT5/MT4 platform management, AWS cloud architecture, and Infrastructure as Code (IaC) implementation. Proven track record in building scalable, secure solutions for high-volume trading environments while collaborating effectively with cross-functional teams.
 
-  \bigskip
-
+  \medskip
 \cvsection{\faSuitcase\ Professional Experience}
 
 \medskip
 
-\cvevent{DevOps Engineer}{Deriv}{Oct 2023 -- Present}{Dubai, UAE}
+\cvevent{MT Application Specialist}{Exinity}{Apr 2025 -- Present}{Dubai, UAE}
 \begin{itemize}
-  \item Architected and maintained enterprise-grade Jenkins CI/CD pipelines, automating build, test, and deployment processes with Docker containerization, Kubernetes orchestration, and GitHub Actions integration
-  \item Established comprehensive monitoring infrastructure for EKS clusters using Prometheus, AWS CloudWatch, FluentBit, Grafana, and DataDog, achieving 99.9\% uptime and proactive issue detection
-  \item Developed advanced Groovy scripts to enhance Jenkins pipeline capabilities, enabling seamless container orchestration and real-time performance tracking across distributed systems
-  \item Migrated legacy CI/CD workflows to Jenkins Shared Libraries, reducing code duplication by 60\% and improving maintenance efficiency
-  \item Created reusable Helm Charts for microservices deployments, ensuring consistency and scalability across development, staging, and production environments
-  \item Led incident response and root cause analysis initiatives, implementing preventive measures that reduced deployment failures by 45\%
-  \item Collaborated with cross-functional teams to integrate automated testing frameworks, reducing release cycles from weeks to days
+  \item Administer MT5/MT4 trading platforms to create and manage MT5 configurations including symbol creation, group management, and manager administration
+  \item Monitor and troubleshoot MT5 server issues including connectivity problems, disk space, performance bottlenecks, failover scenarios, client complaints and critical technical incidents
+  \item Configure alerts and notifications for critical events on MT5 servers and applications to enable proactive incident response
+  \item Perform regular backups of logs and bases and implement disaster recovery planning for MT5 data to ensure business continuity such as proper planning of backup server locations and switch procedure.
+  \item Collaborate closely with trading operations team to ensure smooth platform operation and address trader concerns and client complaints
+  \item Work closely with liqudity providers and MetaQuotes support to resolve platform issues and queries by providing them with necessary logs and information
+  \item Conduct comprehensive testing prior to MT5 build upgrades, including scheduling, planning, backup procedures, and rollback strategies
+  \item Develop and maintain PowerShell scripts using MT Admin API and Manager API to automate repetitive tasks and improve operational efficiency
+  \item Utilize MySQL SQL exports creating sql based alerts, trade history retrieval, generate reports and troubleshooting
+  \item Implement security best practices to safeguard the MT5 platform from potential threats and vulnerabilities
+\end{itemize}
+\divider
+\cvevent{Systems Engineer}{Deriv}{Oct 2023 -- Apr 2025}{Dubai, UAE}
+\begin{itemize}
+  \item Managed MT5 infrastructure on AWS cloud, ensuring high availability, scalability, and security of the trading platform
+  \item Utilized Infrastructure as Code (IaC) tools like Terraform to provision and manage AWS resources for MT5 servers, databases, and networking components
+  \item Created and managed MT5 configurations including symbol creation, group administration, manager setup, and configuration backups
+  \item Collaborated closely with liquidity providers such as OneZero and MetaQuotes to address platform issues and optimize performance
+  \item Scaled access servers and trade servers dynamically based on trading volume and user access regions
+  \item Implemented AWS Global Accelerator to optimize latency for traders across different geographies
+  \item Conducted thorough load testing of MT5 build upgrades in development and staging environments prior to production deployment
+  \item Developed PowerShell scripts to automate MT5 server tasks such as access server space management by cleaning old tick data
+  \item Created comprehensive documentation for MT5 infrastructure, deployment processes, and troubleshooting procedures to facilitate knowledge sharing
+  \item Provided 24/7 on-call monitoring of MT5 servers and applications using DataDog to ensure optimal performance and availability
 \end{itemize}
 
 \divider
 
 \cvevent{System Administrator Specialist}{FIS}{Dec 2021 -- Oct 2023}{Chennai, India}
 \begin{itemize}
-  \item Engineered infrastructure automation using Terraform and Ansible, reducing manual operational tasks by 40\% and improving deployment consistency across 100+ servers
-  \item Hardened Linux security posture through firewall configuration, SSH hardening, vulnerability scanning, and automated patch management, achieving 100\% compliance with security standards
-  \item Implemented enterprise monitoring solutions with Prometheus and Grafana, creating custom dashboards and automated alerting for proactive incident detection
-  \item Orchestrated containerized application deployments with Docker and Kubernetes, seamlessly integrating with Jenkins CI/CD pipelines
-  \item Maintained 99.8\% availability of CI/CD infrastructure by implementing robust change management and release processes aligned with ITSM principles
-  \item Developed comprehensive technical documentation and delivered training programs, upskilling 30+ team members on DevOps best practices
+  \item Strengthened security of Linux environments by configuring OS, enforcing secure SSH practices, implementing regular patching schedules, and conducting vulnerability assessments
+  \item Leveraged automation tools such as Terraform and Ansible to streamline routine tasks, reducing manual effort by 40\% and improving operational efficiency
+  \item Automated infrastructure provisioning, configuration management, and monitoring to enhance system reliability and performance
+  \item Implemented comprehensive monitoring and alerting solutions for build systems using Prometheus and Grafana
+  \item Configured custom dashboards to track key performance metrics and set up automated alerts for critical thresholds
+  \item Deployed and managed containerized applications with Docker and Kubernetes, seamlessly integrating them into Jenkins CI/CD pipelines
+  \item Documented detailed CI/CD processes, including pipeline configurations, deployment workflows, and troubleshooting techniques
+  \item Delivered comprehensive training sessions to cross-functional teams on DevOps best practices and automation tools
 \end{itemize}
 
 \divider
 
 \cvevent{Systems Engineer $\rightarrow$ Lead Systems Engineer}{Fidelity Investments}{Mar 2016 -- Dec 2021}{Chennai, India}
 \begin{itemize}
-  \item Led infrastructure modernization initiatives, progressing from Systems Engineer to Lead Systems Engineer role
-  \item Architected and optimized Docker containerization strategy, implementing security best practices and conducting regular vulnerability assessments across 200+ container images
-  \item Managed enterprise Linux server infrastructure (500+ nodes), implementing automated patching, system hardening, and custom shell scripts for operations automation
-  \item Designed and deployed Grafana monitoring dashboards providing real-time insights into system health, performance metrics, and resource utilization patterns
-  \item Developed advanced automation scripts (Bash/Python) for infrastructure monitoring, application deployment, and backup processes, reducing operational overhead by 50\%
-  \item Spearheaded large-scale EOL application migrations, successfully transitioning 15+ critical applications to modern platforms with zero downtime
-  \item Provided 24/7 on-call support for production systems, maintaining 99.9\% uptime through rapid incident response and resolution
-  \item Implemented proactive patch management strategy, reducing security vulnerabilities by 75\% across the infrastructure
-  \end{itemize}
+  \item Progressed from Systems Engineer to Lead Systems Engineer, leading infrastructure modernization initiatives across enterprise environments
+  \item Built and managed Docker images, optimizing for application performance and ensuring compliance with security standards
+  \item Conducted regular vulnerability scans and implemented container security best practices across 200+ container images
+  \item Managed enterprise Linux server infrastructure (500+ nodes), implementing automated patching, system hardening, and custom automation scripts
+  \item Developed custom shell scripts for automated administrative tasks including log rotation, user management, and backup scheduling
+  \item Provided 24/7 on-call support to address critical system issues, leveraging advanced diagnostic tools and scripts for swift incident resolution
+  \item Implemented proactive patch management strategy for Linux servers, reducing security vulnerabilities by 75\% across the infrastructure
+  \item Ensured timely security updates and critical patches to protect against emerging threats and maintain optimal performance
+  \item Developed and maintained Grafana dashboards to monitor system health and performance, providing real-time insights for proactive issue resolution
+  \item Created advanced automation scripts (Bash/Python) for infrastructure monitoring, application deployment, and backup processes
+  \item Led large-scale migration efforts for end-of-life (EOL) applications, successfully transitioning 15+ critical applications to modern platforms
+  \item Strategically planned and executed migrations with zero downtime, enhancing performance, security, and compatibility
+\end{itemize}
 \divider
 \newpage
 \cvevent{Junior Analyst $\rightarrow$ Senior Analyst}{HCL Technologies}{Mar 2013 -- Mar 2016}{Chennai, India}
 \begin{itemize}
-  \item Advanced from Junior to Senior Analyst, managing enterprise virtualization and server infrastructure
-  \item Administered VMware vSphere infrastructure (100+ virtual machines), ensuring 99.5\% availability through proactive maintenance and patch management
-  \item Deployed and managed Windows Server environments (2008/2012 R2), including Active Directory, DNS, DHCP, and Group Policy administration for 500+ users
-  \item Implemented Linux system deployments with security hardening, automated patch management, and continuous monitoring
-  \item Operated within ITSM framework managing incident, change, and problem management processes, consistently meeting 95\% SLA compliance
-  \item Delivered 24/7 on-call support for critical systems, ensuring rapid incident response and minimal service disruption
+  \item Advanced from Junior to Senior Analyst, managing enterprise virtualization and server infrastructure for 500+ users
+  \item Administered VMware vSphere infrastructure (100+ virtual machines), ensuring 99.5\% availability through proactive maintenance
+  \item Conducted patch management, implemented hardware fixes, and resolved issues to maintain seamless infrastructure operations
+  \item Installed, configured, and troubleshot Windows Server 2008 and 2012 R2 environments
+  \item Managed Active Directory, DNS, DHCP, and Group Policy configurations to ensure system functionality and security
+  \item Deployed and hardened Linux systems, implementing routine patch management, proactive monitoring, and issue resolution
+  \item Operated within ITSM framework, managing incident, change, and problem processes while ensuring 95\% SLA compliance
+  \item Provided 24/7 on-call support for critical systems, ensuring rapid incident response and minimal service disruption
 \end{itemize}
 % \divider
 
@@ -289,57 +311,51 @@
 
 % \cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
 
-\cvsection{\faTools\ Technical Skills}
+\cvsection{\faCloud\ Cloud}
 
-\cvsubsection{Cloud Platforms}
-\cvtag{AWS}
-\cvtag{Azure}
-\cvtag{EKS}
-\cvtag{CloudWatch}
+\cvtag{Amazon Web Services AWS}\\
+\cvtag{Microsoft Azure}\\
 
-\medskip
-\cvsubsection{DevOps \& CI/CD}
-\cvtag{Jenkins}
-\cvtag{GitHub Actions}
+
+%\cvsection{OS}
+%\cvtag{Windows Server[2016,2019,2022]}\\
+%\cvtag{Linux[Ubuntu, Debian]}\\
+
+\cvsection{\faCuttlefish\ CI/CD}
+
+\cvtag{Github Actions}\\
 \cvtag{Azure DevOps}
-\cvtag{Terraform}
-\cvtag{Ansible}
 
-\medskip
-\cvsubsection{Containers \& Orchestration}
-\cvtag{Docker}
-\cvtag{Kubernetes}
-\cvtag{Helm}
+\cvsection{\faCode\ Programming}
+\cvtag{Powershell}\\
+\cvtag{Bash/Shell}\\
+\cvtag{Basic Python}\\
 
-\medskip
-\cvsubsection{Monitoring \& Observability}
-\cvtag{Prometheus}
-\cvtag{Grafana}
-\cvtag{DataDog}
-\cvtag{FluentBit}
+%\cvsection{Virtualization}
+% \cvtag{VMware}\\
+% \cvtag{HyperV}\\
 
-\medskip
-\cvsubsection{Scripting \& Programming}
-\cvtag{Groovy}
-\cvtag{Bash/Shell}
-\cvtag{Python}
+% \cvsection{Network}
 
-\medskip
-\cvsubsection{Operating Systems}
-\cvtag{Linux (Ubuntu/Debian)}
-\cvtag{Windows Server}
+% \cvtag{TCP/IP}\\
+% \cvtag{Loadbalancer}\\
+% \cvtag{DNS}\\
+% \cvtag{VPN}
+\cvsection{\faSistrix Monitoring}
+\cvtag{DataDog}\\
+\cvtag{Prometheus}\\
+\cvtag{Grafana}\\
+\cvtag{Zabbix}\\
 
-\cvsection{\faLightbulb\ Core Competencies}
-
-\cvtag{Problem Solving}
-\cvtag{Critical Thinking}
-\cvtag{Team Collaboration}
-\cvtag{Technical Leadership}
-\cvtag{Time Management}
-\cvtag{Documentation}
-\cvtag{Training \& Mentoring}
-
-\medskip
+\cvsection{\faBookReader\ Soft Skills}
+\begin{itemize}
+  \item Strong analytical and problem-solving skills.
+  \item Effective problem-solving and critical thinking.
+  \item Ability to work effectively in a team environment.
+  \item Strong organizational and time management skills.
+  \item Detail-oriented with a focus on accuracy and quality.
+\end{itemize}
+% \divider\smallskip
 
 
 % \cvsection{Languages}
@@ -359,9 +375,9 @@
 
 
 %\newpage
-\cvsection{\faGraduationCap\ Education}
+\cvsection{\faBook\ Education}
 
-\cvevent{Bachelor of Technology in Information Technology}{Anna University}{2008 -- 2012}{Chennai, India}
+\cvevent{Degree - BTech IT}{Anna University}{June 2008 -- June 2012}{}
 
 % \divider
 
