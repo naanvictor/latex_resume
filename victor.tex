@@ -24,6 +24,9 @@
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
+% Package for dark mode background
+\usepackage{pagecolor}
+\usepackage{xcolor}
 
 
 % Change the font if you want to, depending on whether
@@ -38,21 +41,26 @@
   \usepackage[default]{lato}
 \fi
 
-% Change the colours if you want to
-\definecolor{VividPurple}{HTML}{3E0097}
-\definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{666666}
-\definecolor{NavyBlue}{HTML}{1E3A5F}
-\definecolor{DarkGrey}{HTML}{333333}
+% Dark mode colors optimized for readability
+\definecolor{DarkBackground}{HTML}{1E1E1E}
+\definecolor{LightText}{HTML}{E0E0E0}
+\definecolor{MediumText}{HTML}{B0B0B0}
+\definecolor{AccentBlue}{HTML}{6AB0F3}
+\definecolor{AccentCyan}{HTML}{4EC9B0}
+\definecolor{BrightWhite}{HTML}{F5F5F5}
 
-% \colorlet{name}{black}
- \colorlet{tagline}{NavyBlue}
-\colorlet{heading}{DarkGrey}
-\colorlet{headingrule}{DarkGrey}
+% Set dark background and light text
+\pagecolor{DarkBackground}
+\color{LightText}
+
+\colorlet{name}{BrightWhite}
+\colorlet{tagline}{AccentCyan}
+\colorlet{heading}{AccentBlue}
+\colorlet{headingrule}{AccentBlue}
 % \colorlet{subheading}{PastelRed}
-\colorlet{accent}{NavyBlue}
-\colorlet{emphasis}{SlateGrey}
-\colorlet{body}{LightGrey}
+\colorlet{accent}{AccentCyan}
+\colorlet{emphasis}{LightText}
+\colorlet{body}{MediumText}
 
 % Change some fonts, if necessary
 % \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
@@ -93,7 +101,7 @@
 
 \begin{document}
 \name{Victor Gnanaraj}
-\tagline{DevOps Engineer}
+\tagline{Systems Engineer}
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 %% You can add multiple photos on the left or right
  %\photoL{2cm}{Yacht_High,Suitcase_High}
@@ -142,63 +150,78 @@
 % break across pages if things get too long.
 \begin{paracol}{2}
 
-  \cvsection{\faBriefcase\ Career Summary}
-  \begin{itemize}
-\item Experienced Systems Engineer passionate about building efficient, scalable, and secure solutions for both on-premises and cloud environments. Over the years, I’ve honed my skills in implementing CI/CD pipelines, managing infrastructure with IaC tools like Terraform, and containerizing applications with Docker and Kubernetes. Skilled in designing and optimizing on-premises infrastructure, including virtualization, storage, and networking, while enabling cross-functional teams through training and continuous improvement initiatives.
-    %   \item Experienced Systems Engineer with over 11 Years of solid background in Linux, Kubernetes and VMware with focus on designing, implementing, and optimizing software delivery using CI/CD pipelines. Proficient in deploying and managing cloud and on-premise infrastructure, with expertise in monitoring and troubleshooting complex environments to enhance system stability and performance.
-  \end{itemize}
-\cvsection{\faSuitcase\ Experience}
+  \cvsection{\faBriefcase\ Professional Summary}
 
-\cvevent{\faArrowAltCircleRight\ DevOps Engineer}{Deriv}{Oct 2023 -- Ongoing}{Dubai, UAE}
+  \medskip
+  Experienced Systems Engineer with 12+ years of expertise in trading platform administration, cloud infrastructure management, and DevOps automation. Specialized in MT5/MT4 platform management, AWS cloud architecture, and Infrastructure as Code (IaC) implementation. Proven track record in building scalable, secure solutions for high-volume trading environments while collaborating effectively with cross-functional teams.
+
+  \medskip
+\cvsection{\faSuitcase\ Professional Experience}
+
+\medskip
+
+\cvevent{MT Application Specialist}{Exinity}{Apr 2025 -- Present}{Dubai, UAE}
 \begin{itemize}
-  \item Designed and maintained Jenkins CI/CD pipelines to automate build, test, and deployment processes, integrating Docker for containerized builds, Kubernetes for scalable deployment orchestration, and GitHub Actions for streamlined workflow automation
-  \item Diagnosed and resolved complex build and deployment failures by analyzing logs, identifying root causes, and implementing long-term fixes. Collaborated with cross-functional teams to improve CI/CD workflows, ensuring consistent system reliability and minimal downtime.
-  \item Established a robust monitoring setup for EKS with Prometheus, AWS CloudWatch, FluentBit, Grafana, and DataDog to minimize downtime and boost reliability, alongside creating Helm Charts for consistent, scalable microservices deployments.
-  %\item Managed and maintained a secure, scalable cloud infrastructure on AWS and Azure to support .NET application workflows, ensuring reliability and performance for critical deployments. Applied robust cloud security measures such as IAM policies, network security groups, data encryption, and regular audits to safeguard resources and maintain compliance with industry standards.%  \item Managed and optimized the Microsoft 365 infrastructure, overseeing the configuration, security, and administration of tools such as Exchange Online, SharePoint, Teams, Intune, and Azure AD. Developed and enforced policies to ensure secure and efficient access, compliance with organizational standards, and a streamlined user experience across the enterprise.
-\item Developed and optimized Groovy scripts to enhance Jenkins pipeline capabilities, enabling seamless integration with Docker and Kubernetes for container orchestration, as well as incorporating monitoring tools like Prometheus and Grafana for real-time system insights and performance tracking.
-\item Migrated existing CI/CD workflows to Jenkins Shared Libraries, reducing duplication and streamlining maintenance.
-\item Collaborated with developers and QA teams to integrate automated testing and improve delivery cycles.
-\item Led incident response, troubleshooting, and post-incident root cause analysis, contributing to continuous improvement in system reliability.
+  \item Administer MT5/MT4 trading platforms to create and manage configurations including symbol creation, group management, and user administration
+  \item Manage the on-premises Windows infrastructure hosting MT4/MT5 servers, from build to deployment, monitoring, maintenance, and troubleshooting
+  \item Monitor and troubleshoot MT4/MT5 server issues including connectivity problems, disk space, performance bottlenecks, failover scenarios, client complaints and critical technical incidents
+  \item Configure alerts and notifications in zabbix for critical events on Windows servers and MT4/MT5 services to enable proactive incident response
+  \item Perform regular backups of logs and bases folder, and implement disaster recovery planning to ensure business continuity, including proper planning of backup server locations and switch procedures
+  \item Collaborate closely with trading operations team to ensure smooth platform operation and address trader concerns and client complaints
+  \item Work closely with liquidity providers and MetaQuotes support to resolve platform issues and queries by providing them with necessary logs and information
+  \item Conduct comprehensive testing prior to MT5 build upgrades, including scheduling, planning, backup procedures, and rollback strategies
+  \item Develop and maintain PowerShell scripts using MT Admin API and Manager API to automate repetitive tasks and improve operational efficiency
+  \item Utilize MySQL SQL exports to create SQL-based alerts, retrieve user data, generate reports, and perform troubleshooting
+  \item Implement security best practices to safeguard the Trading platform from potential threats and vulnerabilities
+  \item Follow proper change management procedures to ensure minimal disruption during maintenance and upgrades
+\end{itemize}
+\divider
+\cvevent{Systems Engineer}{Deriv}{Oct 2023 -- Apr 2025}{Dubai, UAE}
+\begin{itemize}
+  \item Managed MT5 infrastructure on AWS cloud, ensuring high availability, scalability, and security of the trading platform using Terraform as IaC tool
+  \item Created and managed MT5 configurations including symbol creation, group administration, manager setup, and configuration backups
+  \item Collaborated closely with liquidity providers such as OneZero and MetaQuotes to address platform issues and optimize performance
+  \item Scaled access servers and trade servers dynamically based on trading volume and user access regions
+  \item Implemented AWS Global Accelerator to optimize latency for traders across different geographies
+  \item Conducted thorough load testing of MT5 build upgrades in development and staging environments prior to production deployment
+  \item Developed PowerShell scripts to automate MT5 server tasks such as access server space management by cleaning old tick data
+  \item Created comprehensive documentation for MT5 infrastructure, deployment processes, and troubleshooting procedures to facilitate knowledge sharing
+  \item Provided 24/7 on-call monitoring of MT5 servers and applications using DataDog to ensure optimal performance and availability
+\end{itemize}       
+
+\divider
+
+\cvevent{System Administrator Specialist}{FIS}{Dec 2021 -- Oct 2023}{Chennai, India}
+\begin{itemize}
+  \item Engaged in managing VMware and Nutanix infrastructure, actively seeking avenues to streamline daily operations through automation with secure handling of VMware PowerCLI commands to prevent unauthorized modifications to virtual infrastructure
+  \item Strengthened the security of existing Linux environments by configuring firewalls, enforcing secure SSH practices, implementing regular patching schedules, and conducting vulnerability assessments to protect against potential threats and ensure compliance with security standards
+  \item Leveraged automation such as Terraform and Ansible to streamline routine tasks, reducing manual effort by 40\% and improving operational efficiency. Automated infrastructure provisioning, configuration management, and monitoring to enhance system reliability and performance
+  \item Developed numerous automation solutions using Shell scripting, Python, and Groovy to streamline operations and enhance the efficiency of VMware and Nutanix infrastructures
+\item Maintained high availability of infrastructure by managing change and release processes in alignment with ITSM principles, minimizing downtime during critical deployments
 \end{itemize}
 
-\divider
-
-\cvevent{\faArrowAltCircleRight\ System Administrator Specialist}{FIS}{Dec 2021 -- Oct 2023}{Chennai, India}
-\begin{itemize}
-  \item Engaged in managing VMware and Nutanix infrastructure, actively seeking avenues to streamline daily operations through automation with  secure handling of VMware PowerCLI commands to prevent unauthorized modifications to virtual infrastructure.
-  \item Strengthened the security of existing Linux environments by configuring firewalls, enforcing secure SSH practices, implementing regular patching schedules, and conducting vulnerability assessments to protect against potential threats and ensure compliance with security standards.
-  \item Leveraged automation such as Terraform and Ansible to streamline routine tasks, reducing manual effort by 40\% and improving operational efficiency. Automated infrastructure provisioning, configuration management, and monitoring to enhance system reliability and performance.
- \item  Developed numerous automation solutions using Shell scripting, Python, and Groovy to streamline operations and enhance the efficiency of VMware and Nutanix infrastructures.
-\item Maintained high availability of infrastructure by managing change and release processes in alignment with ITSM principles, minimizing downtime during critical deployments. 
-\item Gained extensive experience working with Kubernetes (K8s) and Docker in a QA environment to prepare for the migration of traditional three-tier applications. Designed and implemented containerization strategies, created Helm charts for deployment, and configured Kubernetes clusters to simulate production-like environments, ensuring seamless migration with minimal downtime and improved scalability.
-\end{itemize}
-
-\divider
-
-\cvevent{\faArrowAltCircleRight\ Systems Engineer \faArrowRight\ Lead Systems Engineer}{Fidelity Investments}{Mar 2016 --  Dec 2021}{Chennai, India}
-\begin{itemize}
-  \item Managed and automated VMware vSphere environments, including provisioning virtual machines, configuring clusters, and optimizing resource allocation to ensure efficient utilization and scalability.
-  \item Utilized PowerCLI scripts to automate VMware tasks such as snapshot management, VM cloning, and network configuration, significantly improving operational efficiency and reducing manual intervention.
-  \item Built and managed Docker images, optimizing them for application performance and ensuring compliance with security standards. Conducted regular vulnerability scans and implemented best practices for container security.
-  \item Managed server lifecycle and ensured their security through routine patching, system hardening, and the use of custom shell scripts for automated administrative tasks such as log rotation, user management, and backup scheduling.
-  \item provided on-call support to address critical system issues, leveraging advanced diagnostic tools and shell scripts to ensure swift incident resolution and maintain high availability.
-  \item Proactively identified and remediated vulnerabilities by implementing regular patch management Windows/linux servers. Ensured timely security updates and critical patches to protect against emerging threats, thereby strengthening the infrastructure's resilience and maintaining optimal performance.
-  \item Developed advanced shell scripts for automating infrastructure monitoring, application deployment, and data backup processes, significantly reducing manual effort and error rates.
-  \item Led large-scale migration efforts for end-of-life (EOL) applications, upgrading to modern, secure platforms with minimal disruption. Strategically planned and executed migrations to enhance performance, security, and compatibility, reducing risks associated with outdated systems.
-   \end{itemize}
-\divider
 \newpage
-\cvevent{\faArrowAltCircleRight\ Junior Analyst \faArrowRight\ Senior Analyst}{HCL Technologies}{Mar 2013 -- Mar 2016}{Chennai, India}
+
+\cvevent{Systems Engineer $\rightarrow$ Lead Systems Engineer}{Fidelity Investments}{Mar 2016 -- Dec 2021}{Chennai, India}
 \begin{itemize}
+  \item Managed and automated VMware vSphere environments, including provisioning virtual machines, configuring clusters, and optimizing resource allocation to ensure efficient utilization and scalability
+  \item Utilized PowerCLI scripts to automate VMware tasks such as snapshot management, VM cloning, and network configuration, significantly improving operational efficiency and reducing manual intervention
+  \item Built and managed Docker images, optimizing them for application performance and ensuring compliance with security standards. Conducted regular vulnerability scans and implemented best practices for container security
+  \item Managed server lifecycle and ensured their security through routine patching, system hardening, and the use of custom shell scripts for automated administrative tasks such as log rotation, user management, and backup scheduling
+  \item Provided on-call support to address critical system issues, leveraging advanced diagnostic tools and shell scripts to ensure swift incident resolution and maintain high availability
+  \item Proactively identified and remediated vulnerabilities by implementing regular patch management for Windows/Linux servers. 
+  \item Developed shell scripts for automating infrastructure monitoring, application deployment, and data backup processes, significantly reducing manual effort and error rates
+  \item Led large-scale migration efforts for end-of-life (EOL) applications, upgrading to modern, secure platforms with minimal disruption. Strategically planned and executed migrations to enhance performance, security, and compatibility, reducing risks associated with outdated systems
+\end{itemize}
+\divider
 
-
-
-  \item  Administered VMware vSphere infrastructure to ensure high availability and optimal uptime. Conducted patch management, implemented hardware fixes, and resolved issues to maintain seamless infrastructure operations.
-  \item Handled the installation, configuration, and troubleshooting of Windows Server 2008 and 2012/R2. Managed Active Directory, DNS, DHCP, and Group Policy configurations to ensure system functionality and security.
-  \item Installed and hardened Linux systems, implementing routine patch management, proactive monitoring, and issue resolution to ensure optimal performance and robust security.
-  \item Adhered to the ITSM framework by managing incident, change, and problem processes while ensuring strict compliance with SLAs for creation and resolution.
-  \item Handled on-call duties to provide 24/7 support for critical systems, ensuring rapid response to incidents and minimizing downtime to maintain high availability and performance.
-
+\cvevent{Junior Analyst $\rightarrow$ Senior Analyst}{HCL Technologies}{Mar 2013 -- Mar 2016}{Chennai, India}
+\begin{itemize}
+  \item Administered VMware vSphere infrastructure to ensure high availability and optimal uptime. Conducted patch management, implemented hardware fixes, and resolved issues to maintain seamless infrastructure operations
+  \item Handled the installation, configuration, and troubleshooting of Windows Server 2008 and 2012/R2. Managed Active Directory, DNS, DHCP, and Group Policy configurations to ensure system functionality and security
+  \item Installed and hardened Linux systems, implementing routine patch management, proactive monitoring, and issue resolution to ensure optimal performance and robust security
+  \item Adhered to the ITSM framework by managing incident, change, and problem management processes while ensuring strict compliance with SLAs for ticket creation and resolution.
+  \item Handled on-call duties to provide 24/7 support for critical systems, ensuring rapid response to incidents and minimizing downtime to maintain high availability and performance
 \end{itemize}
 % \divider
 
@@ -291,15 +314,13 @@
 
 \cvsection{\faCuttlefish\ CI/CD}
 
-\cvtag{Jenkins}\\
 \cvtag{Github Actions}\\
 \cvtag{Azure DevOps}
 
 \cvsection{\faCode\ Programming}
-\cvtag{Groovy}\\
+\cvtag{Powershell}\\
 \cvtag{Bash/Shell}\\
-\cvtag{PowerShell}\\
-\cvtag{Python}\\
+\cvtag{Basic Python}\\
 
 %\cvsection{Virtualization}
 % \cvtag{VMware}\\
@@ -315,7 +336,7 @@
 \cvtag{DataDog}\\
 \cvtag{Prometheus}\\
 \cvtag{Grafana}\\
-\cvtag{HP OpenView}\\
+\cvtag{Zabbix}\\
 
 \cvsection{\faBookReader\ Soft Skills}
 \begin{itemize}
@@ -347,7 +368,7 @@
 %\newpage
 \cvsection{\faBook\ Education}
 
-\cvevent{Degree - BTech IT}{Anna University}{June 2012 -- June 2016}{}
+\cvevent{Degree - BTech IT}{Anna University}{June 2008 -- June 2012}{}
 
 % \divider
 
